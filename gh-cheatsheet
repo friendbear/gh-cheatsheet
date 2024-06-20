@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-echo "Hello gh-cheatsheet!"
+# echo "Hello gh-cheatsheet!"
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+"$DIR/target/release/gh-cheatsheet" "$@"
 
 # Snippets to help get started:
 
